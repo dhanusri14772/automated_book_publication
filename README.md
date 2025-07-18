@@ -24,7 +24,7 @@ To create a seamless workflow that:
 | Component            | Tool / Library Used             |
 |----------------------|---------------------------------|
 | Web Scraping         | Playwright (Python)             |
-| LLM Integration      | Falcon-7B-Instruct (via Ollama) |
+| LLM Integration      | Falcon-7B-Instruct (Ollama) |
 | Voice Support        | pyttsx3, SpeechRecognition      |
 | Vector Store         | ChromaDB                        |
 | UI                   | Streamlit                       |
