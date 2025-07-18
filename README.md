@@ -106,9 +106,9 @@ This will:
 📂 Output Example
 
 
-versions/Chapter_1/v1.txt – Rewritten text
-versions/Chapter_1/v1.pdf – Downloadable version
-screenshots/Chapter_1.png – Chapter screenshot
+1. versions/Chapter_1/v1.txt – Rewritten text
+2. versions/Chapter_1/v1.pdf – Downloadable version
+3. screenshots/Chapter_1.png – Chapter screenshot
 
 
 
