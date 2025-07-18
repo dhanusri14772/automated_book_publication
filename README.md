@@ -104,6 +104,8 @@ This will:
 
 
 📂 Output Example
+
+
 versions/Chapter_1/v1.txt – Rewritten text
 versions/Chapter_1/v1.pdf – Downloadable version
 screenshots/Chapter_1.png – Chapter screenshot
@@ -112,6 +114,8 @@ screenshots/Chapter_1.png – Chapter screenshot
 
 
 🔐 License
+
+
 This repository is shared for educational and evaluation purposes only. All AI content and workflows were built independently. No part of this system is intended for commercial use or replication. 
 
 
