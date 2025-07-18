@@ -1,4 +1,4 @@
-# 📘 Automated Book Publication Workflow
+# 📘 Automated Book Publication 
 
 This project implements an AI-powered system to automate the rewriting, reviewing, voice-interacting, and publishing of book chapters. It integrates LLMs, speech recognition, reinforcement-based feedback, and semantic search to deliver a human-in-the-loop authoring pipeline.
 
@@ -17,6 +17,8 @@ To create a seamless workflow that:
 
 ---
 
+
+
 ## 🛠️ Tech Stack
 
 | Component            | Tool / Library Used             |
@@ -30,6 +32,8 @@ To create a seamless workflow that:
 | Feedback System      | Custom logging (Reward loop)    |
 
 ---
+
+
 
 ## 🧱 Project Modules
 
@@ -65,35 +69,46 @@ To create a seamless workflow that:
 
 ---
 
-## 🧪 How to Run
+## How to Run
 
 1. Setup Environment
-
 ```bash
-git clone https://github.com/your-username/automated-book-publication
+git clone https://github.com/dhanusri14772/automated-book-publication
 cd automated-book-publication
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
+```
 
-2.Run the Scraper
+**2.Run the Scraper**
+```bash
 python scraper.py
+```
 This command will:
-Fetch the chapter text from a predefined URL
-Save it to data/Chapter_1.txt
-Capture and store a screenshot in screenshots/Chapter_1.png
 
-Step 3: Launch the Streamlit dashboard
+> Fetch the chapter text from a predefined URL , 
+> Save it to data/Chapter_1.txt then 
+> Capture and store a screenshot in screenshots/Chapter_1.png
+
+**Step 3: Launch the Streamlit dashboard**
+```bash
 streamlit run app.py
+```
 This will:
-Open a web-based interactive interface
-Guide you through rewriting, reviewing, voice commands, semantic search, feedback, and PDF download
-Seamlessly connect all agents in the workflow
+
+> Open a web-based interactive interface and 
+> Guide you through rewriting, reviewing, voice commands, semantic search, feedback, and PDF download then
+> Seamlessly connect all agents in the workflow
+
+
+
 
 📂 Output Example
 versions/Chapter_1/v1.txt – Rewritten text
 versions/Chapter_1/v1.pdf – Downloadable version
 screenshots/Chapter_1.png – Chapter screenshot
+
+
 
 
 🔐 License
