@@ -37,32 +37,32 @@ To create a seamless workflow that:
 
 ## 🧱 Project Modules
 
-### 1. `scraper.py` – 📥 Chapter Fetcher
+### 1. `scraper.py` – Chapter Fetcher
 - Scrapes text and screenshots from the source URL.
 - Saves cleaned text into `data/Chapter_1.txt`.
 - Screenshot saved in `screenshots/chapter_1.png`.
 
-### 2. `writer_agent.py` – ✍️ AI Rewriter
+### 2. `writer_agent.py` – AI Rewriter
 - Uses an LLM (Falcon-7B) to rewrite/spin the content.
 - Generates new versions stored as `versions/Chapter_1/version_x.txt`.
 
-### 3. `reviewer_agent.py` – 🤖 AI Reviewer
+### 3. `reviewer_agent.py` – AI Reviewer
 - Evaluates the rewritten text.
 - Suggests improvements based on coherence, grammar, etc.
 
-### 4. `reward_system.py` – 🎯 Feedback Logger
+### 4. `reward_system.py` – Feedback Logger
 - Accepts user rating and decision (accepted/rejected).
 - Stores reward signals for reinforcement learning loops.
 
-### 5. `voice.py` – 🎙️ Voice Interaction
+### 5. `voice.py` – Voice Interaction
 - Summarizes, accepts, or revises content using speech input.
 - Converts speech to text and vice versa.
 
-### 6. `index_with_chromadb.py` – 🔍 Semantic Search
+### 6. `index_with_chromadb.py` – Semantic Search
 - Embeds rewritten content into ChromaDB.
 - Enables retrieval based on natural language queries.
 
-### 7. `app.py` – 🖥️ Streamlit Dashboard
+### 7. `app.py` – Streamlit Dashboard
 - Central dashboard for interaction.
 - Displays original and rewritten text.
 - Integrates AI feedback, voice, semantic search, feedback form, and PDF download.
