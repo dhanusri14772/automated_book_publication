@@ -112,6 +112,6 @@ screenshots/Chapter_1.png – Chapter screenshot
 
 
 🔐 License
-This repository is shared for educational and evaluation purposes only. All AI content and workflows were built independently. No part of this system is intended for commercial use or replication. Submissions are protected under the creator’s intellectual license.
+This repository is shared for educational and evaluation purposes only. All AI content and workflows were built independently. No part of this system is intended for commercial use or replication. 
 
 
